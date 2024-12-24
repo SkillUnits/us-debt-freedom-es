@@ -472,6 +472,7 @@ li:not(:first-child) {
 
 .overlay-image {
     margin-bottom: -10px;
+    max-width: 301px;
 }
 
 .how-this-work {

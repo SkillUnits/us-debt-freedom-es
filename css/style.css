@@ -38,9 +38,37 @@ p {
     padding-left: 0px !important;
     background-color: #027DD1;
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+.parity-banner-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 760px;
+    width: 100%;
+}
+.parity-banner p {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.banner-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #323232;
+    background: #FFF500;
+    border-bottom: 2px solid #D0AD00;
+    box-shadow: 0 0.5px 0 0.5px #000000;
+    border-radius: 100px;
 }
 
 main {
@@ -565,4 +593,21 @@ footer {
 }
 .trust-me {
     font-size: 39px;
+}
+
+.swiper {
+    max-width: 1280px;
+    width: 100%;
+    height: 450px;
+}
+.swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    padding-bottom: 60px;
+    height: 93% !important;
+}
+.swiper .client-feedback {
+    padding: 60px 0 60px 0;
+    width: 90%;
+    max-width: 960px;
 }

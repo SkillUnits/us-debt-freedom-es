@@ -10,11 +10,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+		var swiper = new Swiper(".swiper", {
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+		});
+      </script>
+      
     <div class="parity-banner">
         <div class="parity-banner-inner">
-            It's so easy to be a Debt Free. Make a call to change your life
+            <p>It's so easy to be a Debt Free. Make a call to change your life</p>
+            <a class="banner-num" href="tel:+1xxxxxxxxx">+1 xxx xxx xxx</a>
         </div>
     </div>
     <main>
@@ -42,30 +61,83 @@
                 <div class="head-block-paragraph">
                     Unlock financial freedom and start living the life you deserve today. <span class="accent">Call us now</span> to discover how much you can save!
                 </div>
-                <a href="" class="tel-button">Start Saving Today</a>
+                <a href="#call" class="tel-button">Start Saving Today</a>
             </div>
         </section>
         <section class="pt-4">
-            <div class="client-feedback">
-                <div class="client-feedback-inner">
-                    <div class="score">
-                        <img src="images/yellow-stars.svg" alt="" decoding="async">
-                        <div class="by">@erinnn · Dec 2, 2024</div>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-feedback">
+                            <div class="client-feedback-inner">
+                                <div class="score">
+                                    <img src="images/yellow-stars.svg" alt="" decoding="async">
+                                    <div class="by">@erinnn · Dec 2, 2024</div>
+                                </div>
+                                <div class="feedback">
+                                    I had 25,679.00 in credit card debt, I made one 15 minute phone call & they were able to get my interest down to 0% & I literally put $11,812.34 back in my pocket!
+                                </div>
+                                <div class="client">
+                                    <img src="images/Erin.png" alt="" decoding="async" class="client-image">
+                                    <div class="client-info">
+                                        <div class="client-name-diff">
+                                            <h3>Erin C.</h3>
+                                            <img src="images/verified.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feedback">
-                        I had 25,679.00 in credit card debt, I made one 15 minute phone call & they were able to get my interest down to 0% & I literally put $11,812.34 back in my pocket!
+                    <div class="swiper-slide">
+                        <div class="client-feedback">
+                            <div class="client-feedback-inner">
+                                <div class="score">
+                                    <img src="images/yellow-stars.svg" alt="" decoding="async">
+                                    <div class="by">@erinnn · Dec 2, 2024</div>
+                                </div>
+                                <div class="feedback">
+                                    I had 25,679.00 in credit card debt, I made one 15 minute phone call & they were able to get my interest down to 0% & I literally put $11,812.34 back in my pocket!
+                                </div>
+                                <div class="client">
+                                    <img src="images/Erin.png" alt="" decoding="async" class="client-image">
+                                    <div class="client-info">
+                                        <div class="client-name-diff">
+                                            <h3>Erin C.</h3>
+                                            <img src="images/verified.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="client">
-                        <img src="images/Erin.png" alt="" decoding="async" class="client-image">
-                        <div class="client-info">
-                            <div class="client-name-diff">
-                                <h3>Erin C.</h3>
-                                <img src="images/verified.png" alt="">
+                    <div class="swiper-slide">
+                        <div class="client-feedback">
+                            <div class="client-feedback-inner">
+                                <div class="score">
+                                    <img src="images/yellow-stars.svg" alt="" decoding="async">
+                                    <div class="by">@erinnn · Dec 2, 2024</div>
+                                </div>
+                                <div class="feedback">
+                                    I had 25,679.00 in credit card debt, I made one 15 minute phone call & they were able to get my interest down to 0% & I literally put $11,812.34 back in my pocket!
+                                </div>
+                                <div class="client">
+                                    <img src="images/Erin.png" alt="" decoding="async" class="client-image">
+                                    <div class="client-info">
+                                        <div class="client-name-diff">
+                                            <h3>Erin C.</h3>
+                                            <img src="images/verified.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
+
             <div class="text-section">
                 <div class="text-section-inner">
                     <div class="info-box">
@@ -85,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="tel-button">Start Saving Today</a>
+            <a href="#call" class="tel-button">Start Saving Today</a>
         </section>
         <section>
             <div class="card">
@@ -105,7 +177,7 @@
                     <p>If you answered <span class="accent">yes</span> to any of these questions, it’s time to take action. <span class="accent">You deserve a fresh start</span> and the opportunity to live without debt holding you back.</p>
                     <p>Don't wait any longer.</p>
                 </div>
-                <a href="" class="tel-button">Start Your Debt-Free Life Now</a>
+                <a href="#call" class="tel-button">Start Your Debt-Free Life Now</a>
                 <div class="text-block">
                     <p>Let us help you achieve the <span class="selection">debt-free</span> life you deserve!</p>
                 </div>
@@ -214,7 +286,7 @@
                     <h2 class="trust-me"><span class="selection">Why should you trust me?</span></h2>
                     <div class="info-box mt-20 mw-650 mb-60">
                         <p>As I mentioned above, I spent an entire year searching for a way to achieve debt freedom. With a degree in finance and a dedicated team of professionals, US Debt Freedom has successfully settled over 16,000 individual debts in the past five years, with amounts ranging from $15,000 to $480,000.</p>
-                        <p>Our expertise and unwavering commitment ensure that you receive personalized and effective solutions tailored to your unique situation. Trust our proven track record and financial knowledge to guide you toward a <span class="selection">debt-free future</span></p>
+                        <p>Our expertise and unwavering commitment ensure that you receive personalized and effective solutions tailored to your unique situation. Trust our proven track record and financial knowledge to guide you toward a <span id="call" class="selection">debt-free future</span></p>
                     </div>
                 </div>
             </div>

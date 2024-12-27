@@ -21,9 +21,19 @@
     .text-block-variation {
         font-size: 17px;
     }
+    .parity-banner-inner {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 760px) {
+    .parity-banner {
+        font-size: 1.6rem;
+        top: -1;
+    }
+    .parity-banner-inner {
+        padding-left: 10px;
+    }
     .officer-name {
         font-size: 16px;
     }
@@ -76,6 +86,23 @@
     }
     .text-block-variation {
         font-size: 16px;
+    }
+
+    .swiper {
+        max-width: 1000px;
+        width: 100%;
+        height: 450px;
+    }
+    .swiper-slide {
+        display: flex !important;
+        justify-content: center;
+        padding-bottom: 60px;
+        height: 90% !important;
+    }
+    .swiper .client-feedback {
+        padding: 60px 20px 60px 20px;
+        width: 80%;
+        max-width: 960px;
     }
 }
 

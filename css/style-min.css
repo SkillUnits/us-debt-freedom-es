@@ -114,6 +114,32 @@
         font-size: 1.4rem;
         top: -1;
     }
+    .parity-banner p {
+        max-width: 55%;
+    }
+    .banner-num {
+        font-size: 13px;
+        height: 38px;
+        width: 180px;
+    }
+    .before-after-block {
+        height: 90px;
+        max-width: 90%;
+        padding: 16px 0 10px 0;
+    }
+    .arrow-block img {
+        width: 24px;
+        height: 24px;
+    }
+    .before-after-block p {
+        font-size: 12px;
+    }
+    .before-after-block h3 {
+        font-size: 20px;
+    }
+    .ba-debt-amount {
+        font-size: 24px !important;
+    }
     .officer-link {
         margin-bottom: 0;
         margin-top: 16px;
@@ -230,6 +256,9 @@
         max-width: 220px;
         margin: 0 auto;
     }
+    .how-this-work ul {
+        padding-left: 0;
+    }
     .span-title {
         font-size: 16px;
     }
@@ -247,5 +276,27 @@
     }
     .footer-inner {
         max-width: 90%;
+    }
+    .debt-calculator {
+        padding: 20px 0 0 0;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .debt-calculator h2 {
+        font-size: 24px;
+    }
+    .slider-container {
+        width: 95%;
+    }
+    .slider::-moz-range-thumb {
+        width: 23px;
+        height: 23px;
+        border-radius: 100%;
+    }
+    .debt-range p {
+        font-size: 14px;
+    }
+    .savings {
+        font-size: 18px;
     }
 }

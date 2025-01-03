@@ -56,19 +56,65 @@ p {
     margin-bottom: 0;
     margin-right: 10px;
 }
+.parity-banner .accent {
+    color: #FFEB3B;
+}
 .banner-num {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 26px;
-    font-size: 13px;
+    width: 220px;
+    height: 44px;
+    font-size: 16px;
     font-weight: 500;
     color: #323232;
     background: #FFF500;
-    border-bottom: 2px solid #D0AD00;
+    /* border-bottom: 2px solid #D0AD00;
     box-shadow: 0 0.5px 0 0.5px #000000;
-    border-radius: 100px;
+    border-radius: 100px; */
+}
+
+.before-after-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 772px;
+    height: 100px;
+    max-width: 90%;
+    padding: 45px 0 46px 0;
+}
+.before-after-block p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.before-after-block h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.ba-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.ba-debt-amount {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.25));
+    margin-top: -10px;
+}
+.arrow-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
 }
 
 main {
@@ -141,7 +187,7 @@ section {
 }
 .no1-debt-block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 277px;
@@ -151,10 +197,26 @@ section {
     border-radius: 10px;
     border: 1px solid #0037D4;
 }
+.no1-debt-block div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.no1-debt-block div:last-child {
+    margin: -10px 0 0 0;
+}
 .no1-debt-block h2 {
     font-size: 16px;
     font-weight: 600;
     color: #0037D4;
+}
+.no1-debt-block p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #777777;
+    margin: 0;
 }
 .head-title {
     font-size: 58px;
@@ -610,4 +672,75 @@ footer {
     padding: 60px 0 60px 0;
     width: 90%;
     max-width: 960px;
+}
+
+.debt-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+    width: 90%;
+    max-width: 960px;
+    color: #323232;
+    font-size: 20px;
+    font-weight: 400;
+}
+.debt-calculator h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slider-container {
+    width: 90%;
+    max-width: 765px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 1px;
+    outline: none;
+    background: #323232;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #0037D4;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 45px;
+    height: 32px;
+    background: #0037D4;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-image: url(../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.debt-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6px;
+}
+.debt-range p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.debt-savings {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.savings {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
 }

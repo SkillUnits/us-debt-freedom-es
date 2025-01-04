@@ -1,9 +1,9 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
-	var swiper = new Swiper(".swiper", {
-        loop: true,
+var swiper = new Swiper(".swiper", {
+    loop: true,
 
-        pagination: {
-            el: ".swiper-pagination",
-        },
-	});
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});

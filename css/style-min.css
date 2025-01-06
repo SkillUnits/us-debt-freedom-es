@@ -40,6 +40,7 @@
     .head-title {
         font-size: 30px;
         margin-top: 32px;
+        width: 90%;
     }
     .head-block-paragraph {
         font-size: 16px;
@@ -115,13 +116,26 @@
         top: -1;
     }
     .parity-banner p {
-        max-width: 55%;
+        max-width: 60%;
     }
     .banner-num {
         font-size: 13px;
         height: 38px;
         width: 180px;
     }
+
+    .no1-debt-block {
+        width: 295px;
+    }
+    .no1-debt-block h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #0037D4;
+    }
+    .no1-debt-block p {
+        font-size: 10px;
+    }
+
     .before-after-block {
         height: 90px;
         max-width: 90%;
@@ -256,7 +270,6 @@
     }
     .how-this-work h2 {
         font-size: 26px;
-        max-width: 220px;
         margin: 0 auto;
     }
     .how-this-work ul {

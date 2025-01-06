@@ -173,6 +173,9 @@
         align-items: flex-start;
         row-gap: 5px;
     }
+    .client-feedback-inner .verified {
+        font-size: 14px;
+    }
     .client .client-image {
         max-width: 45px;
     }

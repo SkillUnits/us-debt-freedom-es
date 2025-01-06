@@ -646,13 +646,25 @@ li:not(:first-child) {
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .footer-inner {
     font-size: 14px;
     color: #777777;
     margin-bottom: 30px;
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-inner .links {
+    max-width: 340px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 14px;
 }
 .footer-inner a {
     color: #777777;
